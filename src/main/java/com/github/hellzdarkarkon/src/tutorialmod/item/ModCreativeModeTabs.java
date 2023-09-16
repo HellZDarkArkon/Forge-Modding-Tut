@@ -2,9 +2,11 @@ package com.github.hellzdarkarkon.src.tutorialmod.item;
 
 import com.github.hellzdarkarkon.src.tutorialmod.TutorialMod;
 import com.github.hellzdarkarkon.src.tutorialmod.block.ModBlocks;
+import com.github.hellzdarkarkon.src.tutorialmod.item.custom.MetalDetectorItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +23,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput)->{
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
 
                         pOutput.accept(Items.EMERALD);
 
