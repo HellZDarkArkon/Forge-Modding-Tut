@@ -15,7 +15,9 @@ import net.minecraft.world.level.block.state.BlockState;
 public class MetalDetectorItem extends Item {
     public MetalDetectorItem(Properties pProp) {
         super(pProp);
+
     }
+
 
     @Override
     public InteractionResult useOn(UseOnContext pContext) {
